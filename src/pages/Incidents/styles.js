@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     title: {
       fontSize: 30,
       marginBottom: 16,
-      marginTop: 48,
+      marginTop: 30,
       color: '#13131a',
       fontWeight: "bold"
     },
@@ -60,6 +60,14 @@ const styles = StyleSheet.create({
       color: '#e02041',
       fontSize: 16,
       fontWeight: "bold"
+    },
+    logoutButton: {
+      borderWidth: 1,
+      borderColor: '#dcdce6',
+      borderRadius: 7,
+      padding: 15,
+      justifyContent: "center",
+      alignItems: "center"
     }
   });
   export default styles;
